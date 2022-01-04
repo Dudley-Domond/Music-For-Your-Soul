@@ -59,12 +59,10 @@ h1 {
 #container_2 {
   margin-top: 10%;
 }
-
 #container div {
   width: 200px;
   height: 200px;
 }
-
 .box1 {
   background-image: url(beatles.jpg);
   width: 1000px;
@@ -84,6 +82,20 @@ h1 {
   height: 900px;
   margin: 0 auto;
   margin-top: 5%;
+  border: 5px solid purple;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  transition: all 2s;
+  background-size: cover;
+}
+.box3 {
+  background-image: url(trav.jpg);
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  margin-top: 5%;
   border: 5px solid gray;
   display: flex;
   flex-direction: row;
@@ -92,11 +104,10 @@ h1 {
   transition: all 2s;
   background-size: cover;
 }
-
-.box3 {
-  background-image: url(trav.jpg);
-  width: 400px;
-  height: 800px;
+.box4 {
+  background-image: url(drake.jpg);
+  width: 550px;
+  height: 550px;
   margin: 0 auto;
   margin-top: 5%;
   border: 5px solid goldenrod;
@@ -107,11 +118,10 @@ h1 {
   transition: all 2s;
   background-size: cover;
 }
-
-.box4 {
-  background-image: url(drake.jpg);
-  width: 500px;
-  height: 800px;
+.box5 {
+  background-image: url(mariah.jpg);
+  width: 350px;
+  height: 300px;
   margin: 0 auto;
   margin-top: 5%;
   border: 5px solid purple;
@@ -122,18 +132,8 @@ h1 {
   transition: all 2s;
   background-size: cover;
 }
-
-.box5 {
-  background-image: url(pic.jpg);
-  width: 650px;
-  height: 1000px;
-  margin: 0 auto;
-  margin-top: 5%;
-  border: 5px solid purple;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  transition: all 2s;
-  background-size: cover;
+.box5:hover {
+  width: 450px;
+  height: 400px;
+  border: white;
 }
