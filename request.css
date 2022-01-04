@@ -1,0 +1,84 @@
+body {
+  background-color: gray;
+}
+
+.nav-list {
+    background: white;
+    box-shadow: 10px 5px 5px 3px gray;
+    margin: 0px;
+    padding: 1rem 0px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  .nav-item {
+    list-style: none;
+    margin-right: 7rem;
+    font-weight: normal;
+  }
+  .nav-item a {
+    text-decoration: none;
+    color: black;
+  }
+  .nav-item a:hover {
+    font-size: 1.5rem;
+    color: orangered;
+    transition: all 0.5s;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+#request_header {
+  margin: 20px;
+  text-align: center;
+  font-size: 2rem;
+  border-style: double dotted;
+  border-radius: 30px solid;
+  padding: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:purple;
+  border-color: black;
+}
+
+#artistname {
+  font-size: 1.5rem;
+  background;
+}
+
+#requests {
+  font-size: 1.5rem;
+  background-color: white;
+}
+
+.form_title {
+    color: black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.artistname{
+    font-size: 1.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.songtitle {
+    font-size: 1.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#button{
+    font-size: 1.3rem;
+    color:goldenrod;
+}
+
+#button:hover{
+    color:white;
+    cursor:pointer;
+}
