@@ -1,0 +1,98 @@
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background-image: url("page3pic.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 100%;
+  margin-left: 20px;
+}
+.nav-list {
+  background: white;
+  box-shadow: 10px 5px 5px 3px gray;
+  margin: 0px;
+  padding: 1rem 0px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 1.2rem;
+}
+.nav-item {
+  list-style: none;
+  margin-right: 7rem;
+  font-weight: normal;
+}
+.nav-item a {
+  text-decoration: none;
+  color: black;
+}
+.nav-item a:hover {
+  font-size: 1.5rem;
+  color: orangered;
+  transition: all 0.5s;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 2em;
+}
+h1:hover {
+  color: orangered;
+}
+label {
+  font-size: 2em;
+  text-align: center;
+  color: orange;
+  font-weight: bolder;
+  height: 50px;
+  width: 50px;
+}
+label:hover {
+  color: orangered;
+}
+button {
+  background-color: gray;
+  color: black;
+  font-size: 1em;
+  font-weight: normal;
+}
+button:hover {
+  color: white;
+  cursor: pointer;
+}
+textarea {
+  margin-top: 10px;
+  font-size: 1em;
+}
+#fname {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+#lname {
+  margin-top: 10px;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+.fnametext {
+  margin: 1px;
+  padding: 2rem;
+  font-size: 20px;
+  color: orange;
+  font-weight: normal;
+}
+.lnametext {
+  margin: 1px;
+  padding: 2rem;
+  font-size: 20px;
+  color: orange;
+  font-weight: normal;
+}
