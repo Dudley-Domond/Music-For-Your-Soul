@@ -9,6 +9,20 @@ body {
   height: 100%;
   margin-left: 20px;
 }
+
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 50%;
+  height: 100%;
+  width: 500%;
+  background: rgba(0, 0, 0, 0.4);
+  background-attachment: fixed;
+  z-index: -1;
+  transform: translateX(-50%);
+}
+
 .nav-list {
   background: white;
   box-shadow: 10px 5px 5px 3px gray;
